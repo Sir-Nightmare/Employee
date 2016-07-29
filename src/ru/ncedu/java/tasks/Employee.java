@@ -11,6 +11,7 @@ package ru.ncedu.java.tasks;
  * ЗАДАНИЕ
  * Реализовать класс, представляющий собой описание сотрудника компании (Employee).
  *
+ *
  * ТРЕБОВАНИЯ
  * 1) Экземпляр класса, реализующего данный интерфейс, должен соответствовать одному сотруднику.
  * 2) Необходимо реализовать методы get/set для имени (и фамилии), полного имени, зарплаты сотрудника,
@@ -25,12 +26,39 @@ package ru.ncedu.java.tasks;
  * Если в коде есть конструкторы, то среди них должен быть конструктор без параметров:
  * public EmployeeImpl() {  }
  *
+ Common requirements:
+ Your class must be placed to the same package as the interface: ru.ncedu.java.tasks.
+ Your class must be named EmployeeImpl.
+ Your class must be public and implement the given interface, i.e. the class definition must be as follows:
+ public class EmployeeImpl implements Employee
+ { ... }
+ Your class must have a public no-argument constructor that means either the default constructor (the absence of any constructors in your code) or the presence of the following code:
+ public EmployeeImpl(){ ... }
+ Your class must not have compilation errors (write your code in IDE).
+ Instantiation with the no-argument constructor must not fail (it's recommended to test it in main() method).
  * ПРИМЕЧАНИЕ
  * Задачу можно решать без явной обработки и генерации исключительных ситуаций (Exceptions).
  *
  * @author Alexander Kharichkin
  * @author Yuriy Popov
  */
+
+
+
+
+//Common requirements:
+//        Your class must be placed to the same package as the interface: ru.ncedu.java.tasks.
+//        Your class must be named EmployeeImpl.
+//        Your class must be public and implement the given interface, i.e. the class definition must be as follows:
+//public class EmployeeImpl implements Employee
+//{ ... }
+//Your class must have a public no-argument constructor that means either the default constructor (the absence of any constructors in your code) or the presence of the following code:
+//public EmployeeImpl(){ ... }
+//        Your class must not have compilation errors (write your code in IDE).
+//        Instantiation with the no-argument constructor must not fail (it's recommended to test it in main() method).
+
+
+
 public interface Employee {
     /**
      * @return Зарплата сотрудника на настоящий момент.
